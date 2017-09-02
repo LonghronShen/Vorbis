@@ -1,10 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NAudio.Vorbis", "NAudio.Vorbis\NAudio.Vorbis.csproj", "{6FC9AAA7-E7FE-4BD4-B813-582D4B3BDA0C}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{BAC2D86B-D23F-4FAC-A8BF-DF9A207D9847}"
 	ProjectSection(SolutionItems) = preProject
 		.nuget\NuGet.Config = .nuget\NuGet.Config
@@ -12,16 +10,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{BAC2D8
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NAudio.Vorbis", "NAudio.Vorbis\NAudio.Vorbis.xproj", "{2B72D827-AEB1-4038-B285-6E8FB977BBD2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6FC9AAA7-E7FE-4BD4-B813-582D4B3BDA0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6FC9AAA7-E7FE-4BD4-B813-582D4B3BDA0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6FC9AAA7-E7FE-4BD4-B813-582D4B3BDA0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6FC9AAA7-E7FE-4BD4-B813-582D4B3BDA0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B72D827-AEB1-4038-B285-6E8FB977BBD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B72D827-AEB1-4038-B285-6E8FB977BBD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B72D827-AEB1-4038-B285-6E8FB977BBD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B72D827-AEB1-4038-B285-6E8FB977BBD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
